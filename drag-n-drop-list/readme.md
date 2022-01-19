@@ -1,4 +1,3 @@
-
 # Drag & Drop List
 
 Simple vanilla JS drag & drop list. Tutorial by @TraversyMedia 
