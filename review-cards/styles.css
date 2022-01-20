@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: rgb(220, 232, 235);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.title h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.title .underline {
+  width: 10%;
+  background-color: darkcyan;
+  height: 4px;
+  margin-top: 30px;
+}
+
+.review {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.review .img-container {
+  margin-top: 10px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.review .img-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.review h4 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+#job {
+  font-size: 14px;
+  color: rgb(92, 179, 208);
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+#info {
+  width: 80%;
+  text-align: center;
+  color: rgb(121, 112, 112);
+}
+
+.btn-container {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.prev,
+.next {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: lightskyblue;
+}
+
+.prev,
+.next:hover {
+  cursor: pointer;
+}
+
+.random {
+  background-color: lightseagreen;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+}
