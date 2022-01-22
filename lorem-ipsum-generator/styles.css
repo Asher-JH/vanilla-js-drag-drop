@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: rgb(220, 232, 235);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h3 {
+  font-size: 34px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.lorem-form {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 10px;
+}
+
+input {
+  width: 10%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: lightseagreen;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.lorem-text {
+  margin-top: 50px;
+  width: 50%;
+}
+
+p {
+  line-height: 24px;
+  font-size: 16px;
+}
