@@ -1,0 +1,22 @@
+.navbar-brand:hover i {
+  transition: 0.2s ease;
+  transform: rotate(-15deg);
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.tfoot-no-borders th {
+  border: none;
+}

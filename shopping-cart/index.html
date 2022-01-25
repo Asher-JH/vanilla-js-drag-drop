@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-weight-bold" href="#">
+          <i class="fas fa-shopping-cart mr-2"></i>
+          Shoe Locker
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#"> Shop </a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section">
+      <h1 class="title">Store</h1>
+      <h2 class="subtitle">
+        Selling your favourite shoes, we have
+        <span id="total-shoes-text" class="has-text-weight-bold">0</span> for
+        sale today
+      </h2>
+
+      <div id="item-list" class="columns is-multiline mt-6"></div>
+    </section>
+
+    <section class="section">
+      <h1 class="title">Cart</h1>
+      <table class="table is-fullwidth">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+              <td>Nike Revolution 6 Next Nature</td>
+              <td>$39.97</td>
+              <td
+                class="is-flex is-justify-content-flex-start is-align-content-center"
+              >
+                <input
+                  class="input is-primary w-25 mr-4"
+                  type="number"
+                  placeholder="1"
+                  min="0"
+                />
+                <button class="button is-danger">
+                  <span class="icon is-medium"><i class="fas fa-times"></i></span>
+                  <span>Remove</span>
+                </button>
+              </td>
+            </tr> -->
+        </tbody>
+        <tfoot class="tfoot-no-borders">
+          <tr>
+            <th></th>
+            <th></th>
+            <th
+              class="is-flex is-justify-content-flex-start is-align-content-center"
+            >
+              <p class="w-25 mr-4">
+                <span class="has-text-weight-light pr-4">Total: </span>$<span
+                  >0.00</span
+                >
+              </p>
+              <button class="button is-success">
+                <span class="icon is-medium"
+                  ><i class="fas fa-shopping-cart"></i
+                ></span>
+                <span>Purchase</span>
+              </button>
+            </th>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Vanilla JS Shopping Cart</strong> by
+          <a href="#">Asher</a>
+        </p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
